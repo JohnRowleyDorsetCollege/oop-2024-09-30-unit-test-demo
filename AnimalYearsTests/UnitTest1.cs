@@ -1,6 +1,6 @@
 namespace AnimalYearsTests
 {
-    public class UnitTest1
+    public class AnimalYearsUnitTests
     {
         [Fact]
         public void Test1()
