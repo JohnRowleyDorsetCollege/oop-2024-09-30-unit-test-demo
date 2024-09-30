@@ -14,6 +14,6 @@
     }
     public class Dog : Animal
     {
-        public override int AgeInAnimalYears() { return Age * 0; }
+        public override int AgeInAnimalYears() { return Age * 7; }
     }
 }
