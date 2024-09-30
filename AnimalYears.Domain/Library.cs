@@ -5,15 +5,15 @@
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public abstract int AgeInHumanYears();
+        public abstract int AgeInAnimalYears();
     }
 
     public class Cat : Animal
     {
-        public override int AgeInHumanYears() { return Age * 5; }    
+        public override int AgeInAnimalYears() { return Age * 0; }    
     }
     public class Dog : Animal
     {
-        public override int AgeInHumanYears() { return Age * 7; }
+        public override int AgeInAnimalYears() { return Age * 0; }
     }
 }
